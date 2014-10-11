@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+	android:background="@color/bkcrema"	
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="Usuario :"
+            android:background="@color/celeste"
+            android:textColor="@color/blanco"
+            android:shadowColor="@color/gris"
+   			android:shadowDx="3" 
+   			android:shadowDy="2" 
+   			android:shadowRadius="1.8"
+   			android:paddingLeft="8dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="Contraseña :"
+            android:background="@color/celeste"
+            android:textColor="@color/blanco"
+            android:shadowColor="@color/gris"
+   			android:shadowDx="3" 
+   			android:shadowDy="2" 
+   			android:shadowRadius="1.8"
+   			android:paddingLeft="8dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+		
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@color/celeste"
+            android:textColor="@color/blanco"
+            android:shadowColor="@color/gris"
+   			android:shadowDx="3" 
+   			android:shadowDy="2" 
+   			android:shadowRadius="1.8"
+            android:text="Ingresar" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- COLORES  -->
+    <string name="app_name">Login</string>
+    <string name="app_name1">Lista de Noticias</string>
+    <string name="app_name2">Descripción</string>    
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- URL 
+   		<string name="url_login">http://10.0.2.2/ExamenAndroid/asnUsuario.php</string>
+    
+    -->
+     
+      <string name="url_login">http://192.168.1.36/ExamenAndroid/asnUsuario.php</string>
+
+    <!-- COLORES -->    
+    <color name="bkcrema">#ECEDEE</color>
+    <color name="celeste">#8AC1FB</color>
+    <color name="negro">#0D2E4A</color>
+    <color name="blanco">#ffffff</color>
+    <color name="gris">#777674</color>
+    
+    
+    <!-- 
+    <color name="gris">#F4F6F7</color>
+    <color name="negro">#42A8FB</color>
+     -->
+    
+</resources>
